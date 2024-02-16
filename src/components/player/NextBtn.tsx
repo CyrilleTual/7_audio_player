@@ -35,7 +35,7 @@ export default function NextBtn() {
   }
 
   return (
-    <div className="p-2 bg-white rounded-full" onClick={change}>
+    <div className="p-2 bg-white rounded-full cursor-pointer hover:bg-slate-100" onClick={change}>
       <SkipForward strokeWidth={2.25} />
     </div>
   );

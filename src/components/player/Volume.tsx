@@ -49,7 +49,7 @@ export default function Volume() {
     <Progress
       id="progressVolum"
       value={volume}
-      className=" absolute left-0 bottom-1/2  w-[100px] translate-x-[-50%]  translate-y-3  -rotate-90 hover:cursor-pointer "
+      className=" absolute left-0 bottom-1/2  w-[100px]  h-6 translate-x-[-40%]  translate-y-3  -rotate-90 hover:cursor-pointer "
     />
   );
 }

@@ -36,7 +36,7 @@ export default function PrevBtn() {
   }
 
   return (
-    <div className="p-2 bg-white rounded-full" onClick={change}>
+    <div className="p-2 bg-white rounded-full cursor-pointer hover:bg-slate-100" onClick={change}>
       <SkipBack strokeWidth={2.25} />
     </div>
   );
