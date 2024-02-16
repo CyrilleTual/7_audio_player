@@ -47,8 +47,8 @@ export default function PlayerPannel() {
 
  //// return the player panel
   return (
-    <div className="fixed w-full flex  bottom-0 rounded border-t-2 border-gray-800 p-6 bg-gradient-to-r from-indigo-100 to-purple-200">
-      <div className="max-w[800px] mx-auto mb-2">
+    <div id="player_pannel "className="fixed w-full flex justify-center  bottom-0 rounded border-t-2 border-gray-800 p-6 bg-gradient-to-r from-indigo-100 to-purple-200">
+      <div className="max-w[800px]    mx-auto mb-2">
         <div className="flex justify-between">
           {/* display informations on the music */}
           <p>

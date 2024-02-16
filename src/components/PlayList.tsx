@@ -23,7 +23,7 @@ export default function PlayList() {
   }
 
   return (
-    <ul className="my-4 w-[400px]">
+    <ul className="flex flex-col  justify-center    w-[400px]">
       {songs.length > 0 &&
         songs.map((song) => (
           <li

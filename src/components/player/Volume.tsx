@@ -6,8 +6,8 @@ import { useEffect } from "react";
 export default function Volume() {
   const setvolume = usePlayListStore((state) => state.setVolume);
   // on recupère le volume actuel
-  const player = document.getElementById("audio-player") as HTMLAudioElement;
-  const volume = player?.volume * 100;
+  const volume = usePlayListStore((state) => state.volume)*100;
+
   ////////////////////////////////////////////
   const progressBar = document.getElementById("progressVolum");
 
@@ -23,6 +23,7 @@ export default function Volume() {
     updateVolume(e);
   }
 
+  // management of the volume bar : click and drag feature
   useEffect(() => {
     if (progressBar) {
       progressBar.addEventListener("click", function (event:any) {
